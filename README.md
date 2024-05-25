@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is about creating a function that reads a file line by line. The goal of this project is to learn how to manage file descriptors, buffers, and memory allocation.
+This project is about creating a function that reads from a file descriptor line by line. The goal of this project is to learn how to manage file descriptors, buffers, and memory allocation.
 
 The function is prototyped as follows:
 ```c
