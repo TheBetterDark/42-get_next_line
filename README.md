@@ -2,10 +2,13 @@
 
 ## Description
 
-This project is about creating a function that reads a file line by line. The function returns the line read from a file descriptor without the newline. The function is prototyped as follows:
+This project is about creating a function that reads a file line by line. The goal of this project is to learn how to manage file descriptors, buffers, and memory allocation.
+
+The function is prototyped as follows:
 ```c
 int get_next_line(int fd);
 ```
+
 The mandatory part has the following constraints:
 - Repeated calls to the function should read the text file pointed to by the file descriptor, one line at a time.
 - Should return the line that was read. If there is nothing else to read or if an error occurred, it should return NULL.
